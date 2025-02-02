@@ -51,6 +51,7 @@ body{
     height: 29px;
     color: #111111;
     background-color: #f4d04e;
+    padding: 4px 12px;
     margin: 0;
 }
 .date{
@@ -120,3 +121,39 @@ body{
     height: 21px;
 }
 
+@media(max-width: 500px){
+    .container{
+    width: 327px;
+    height: 501px;
+    padding: 20px;
+    filter: drop-shadow(0 10px 4px rgb(0, 0, 0, 25%));
+    gap: 24px 0;    
+   
+    }
+    .container div:nth-of-type(3){
+        margin-right: auto;
+        margin-left: 0px;
+    }
+    .topic{
+        font-size: 14px;
+        width: 73px;
+        height: 26px;
+        
+    }
+    .date{
+        font-size: 12px;
+        width: 123px;
+        height: 18px;
+    }
+    .title{
+        font-size: 20px;  
+        width: 279px;
+        height: 30px; 
+    }  
+    .text{
+       
+        font-size: 14px;
+       
+    }
+    
+}
